@@ -13,8 +13,8 @@ with open('requirements.txt') as f:
     requirements = [l for l in f.read().splitlines() if l]
 
 sdict = {
-    'name': 'lightmail',
-    'version': '1.0.0',
+    'name': 'lightweb',
+    'version': '0.0.1',
     'keywords': 'Django, Request, Response',
     'packages': [
         'lightweb'
